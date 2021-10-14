@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+	<head>
+		<title>meAjuda - Doação</title>
+	    <meta charset="UTF-8"/>
+	    <link rel="stylesheet" href="../css/doar.css"/>
+	</head>
+
+	<body>
+
+		<header>
+			<nav>
+				<ul>
+					<li><a href="home.html">meAjuda</a></li>
+				    <li><a href="home.html">Home</a></li>
+				    <li><a href="sobre.html">Sobre Nós</a></li>
+				    <li><a href="depoimentos.html">Depoimentos</a></li>
+				    <li><a href="cadastrar.html">Cadastre-se</a></li>
+				    <li><a href="doar.html">DOAR</a></li>
+		    	</ul>	
+			</nav>
+		</header>
+
+		<main>
+
+			<form action="/action_page.php" style="border:1px solid #ccc">
+			  <div class="container">
+			    <h1>Doação</h1>
+			    <hr>
+
+			    <label for="nome"><b>Nome (opcional)</b></label>
+			    <input type="text" placeholder="Nome" name="nome" required>
+
+			    <label for="email"><b>Email (opcional)</b></label>
+			    <input type="text" placeholder="Email" name="email" required>
+
+			    <label for="caso"><b>Método de Pagamento</b></label>
+		
+			    <select class="form-control">
+			    	<option></option>
+  					<option>Cartão de Crédito</option>
+  					<option>PIX</option>
+  					<option>Boleto</option>
+				</select>
+
+				<label for="valor"><b>Valor em reais para a doação</b></label>
+			    <input type="text" placeholder="R$ Valor" name="valor" required>
+
+			    <label>
+			      <input type="checkbox" name="remember" style="margin-bottom:15px"> Estou ciente que estou doando para a ONG "meAjuda".
+			    </label>
+
+			    <div class="clearfix">
+			      <a href="home.html" class="cancelbtn">Cancelar</a> 
+			      <a href="home.html" class="signupbtn">Pagar</a>
+			    </div>
+			  </div>
+			</form>
+
+		</main>
+
+	</body>
+
+</html>

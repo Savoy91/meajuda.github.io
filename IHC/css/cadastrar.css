@@ -1,0 +1,203 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	width: 100%;
+	height: 100%;
+	font-family: Arial;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+	--nav-bg-color: #328ca8;
+  background-color: #ebe6e6;	
+}
+
+header{
+	width: 100%;
+	height: 64px;
+}
+
+header nav{
+	width: 100%;
+	height: 100%;
+}
+
+header nav ul {
+    width: 100%;
+    height: 100%;
+    list-style: none;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav ul li {
+    width: 25%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul li a {
+    width: 100%;
+    height: 100%;
+    background-color: var(--nav-bg-color);
+
+    text-align: center;
+    line-height: 64px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #ebe6e6;
+}
+
+main {
+    width: 100%;
+    height: calc(100% - 64px);
+    /* background-color: green; */
+}
+
+h1{
+    text-align: left;
+    font-size: 30px;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+input[type=text]{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus{
+  background-color: #ddd;
+  outline: none;
+}
+
+.form-control{
+  width: 100%;
+  padding: 15px;
+  background: #f1f1f1;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.cancelbtn {
+  margin: 0 auto;
+  float: left;
+  align-items: center;
+  background-color: #e35f5f;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  color: #000;
+  cursor: pointer;
+  display: flex;
+  fill: #000;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  width: 150px;
+  position: relative;
+  top: 5%;
+  justify-content: center;
+  letter-spacing: -.8px;
+  line-height: 24px;
+  min-width: 140px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  touch-action: manipulation;
+}
+
+.cancelbtn:focus {
+  color: #e35f5f;
+}
+
+.cancelbtn:hover {
+  border-color: black;
+  color: black;
+  fill: black;
+}
+
+.signupbtn {
+  margin: 0 auto;
+  align-items: center;
+  float: left;
+  margin-left: 1%;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  color: #000;
+  cursor: pointer;
+  display: flex;
+  fill: #000;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  width: 150px;
+  position: relative;
+  top: 5%;
+  justify-content: center;
+  letter-spacing: -.8px;
+  line-height: 24px;
+  min-width: 140px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  touch-action: manipulation;
+}
+
+.signupbtn:focus {
+  color: #171e29;
+}
+
+.signupbtn:hover {
+  border-color: black;
+  color: black;
+  fill: black;
+}
+
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
