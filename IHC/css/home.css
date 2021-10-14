@@ -83,6 +83,10 @@ p{
     text-align: center;
 }
 
+.home{
+  font-size: 35px;
+}
+
 .homeImage{
   display: block;
   margin-left: auto;

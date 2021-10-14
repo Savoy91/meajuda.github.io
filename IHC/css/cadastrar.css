@@ -75,6 +75,10 @@ h1{
     font-size: 30px;
 }
 
+.cadastrar{
+  font-size: 35px;
+}
+
 body {font-family: Arial, Helvetica, sans-serif;}
 * {box-sizing: border-box}
 
