@@ -69,7 +69,7 @@ main {
     margin-top: 5%;
     align-items: center;
     width: 35%;
-    height: calc(100% - 43.5%);
+    box-sizing: border-box;
     background-color: white; 
 }
 
@@ -201,6 +201,10 @@ hr {
 /* Add padding to container elements */
 .container {
   padding: 16px;
+}
+
+.clearfix{
+  margin-top: 2%;
 }
 
 /* Clear floats */
