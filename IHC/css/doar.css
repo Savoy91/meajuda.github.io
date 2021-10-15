@@ -13,7 +13,7 @@ body{
     width: 100%;
     height: 100%;
     --nav-bg-color: #328ca8;
-  background-color: #ebe6e6;    
+    background-color: #ebe6e6;    
 }
 
 header{
@@ -65,9 +65,12 @@ a:hover {
 }
 
 main {
-    width: 100%;
-    height: calc(100% - 64px);
-    /* background-color: green; */
+    margin: 0 auto;
+    margin-top: 5%;
+    align-items: center;
+    width: 35%;
+    height: calc(100% - 43.5%);
+    background-color: white; 
 }
 
 h1{
@@ -150,6 +153,7 @@ hr {
   border-color: black;
   color: black;
   fill: black;
+  background-color: #b31d1d;
 }
 
 .signupbtn {

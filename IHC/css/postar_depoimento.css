@@ -65,9 +65,12 @@ a:hover {
 }
 
 main {
-    width: 100%;
-    height: calc(100% - 64px);
-    /* background-color: green; */
+    margin: 0 auto;
+    margin-top: 5%;
+    align-items: center;
+    width: 35%;
+    height: calc(100% - 53%);
+    background-color: white; 
 }
 
 h1{
@@ -146,6 +149,7 @@ hr {
   border-color: black;
   color: black;
   fill: black;
+  background-color: #b31d1d;
 }
 
 .postbtn {
